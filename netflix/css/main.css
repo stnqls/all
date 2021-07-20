@@ -1,0 +1,282 @@
+@import url("./common.css");
+/* HEADER */
+
+header {
+  padding-top: 20px;
+  background-color: #000;
+}
+
+header .inner {
+  display: flex;
+  padding-top: 8px;
+  margin: 0 56px;
+  position: relative;
+}
+
+header .logo a img {
+  margin-right: 1050px;
+  display: block;
+  width: 167px;
+  padding-bottom: 14px;
+  box-sizing: border-box;
+}
+
+header .option {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+header .option .btn {
+  width: 82px;
+  height: 35px;
+  font-size: 15px;
+}
+
+.first {
+  background-image: url("../images/KR-ko-20210524-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  height: 785px;
+  border-bottom: 8px solid #222;
+  padding: 70px 45px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.first .first-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 785px;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.first .main {
+  color: #fff;
+  width: 950px;
+  height: 365px;
+  padding: 75px 0;
+  z-index: 1;
+  margin: auto 0;
+}
+
+.first .main h1 {
+  display: block;
+  font-weight: 900;
+  font-size: 4rem;
+  margin: 0 75px;
+  text-align: center;
+}
+
+.first .main h2 {
+  font-weight: 700;
+  margin: 16 75px;
+  text-align: center;
+}
+
+.tv .content-tv {
+  position: relative;
+}
+
+.tv .content-tv .image-tv {
+  position: relative;
+  z-index: 2;
+}
+
+.tv .content-tv .image-tv img {
+  width: 530px;
+  height: 398px;
+}
+
+.tv .content-tv .tv-video {
+  width: 387px;
+  height: 216px;
+  position: absolute;
+  top: 80px;
+  left: 68px;
+}
+
+.phone .image-phone {
+  position: relative;
+}
+
+.phone .image-phone img {
+  width: 504px;
+}
+
+.phone .image-phone .download {
+  background-color: #000;
+  display: flex;
+  border: 1.9px solid #aaa;
+  border-radius: .75em;
+  padding: 8px 12px;
+  width: 302px;
+  height: 83px;
+  align-items: center;
+  position: absolute;
+  bottom: 8%;
+  left: 15%;
+}
+
+.phone .image-phone .download img {
+  margin-right: 16px;
+  width: 57px;
+}
+
+.phone .image-phone .download .text {
+  margin: 4.8px 0;
+  color: #fff;
+}
+
+.phone .image-phone .download .text span {
+  display: block;
+}
+
+.phone .image-phone .download .text span.save {
+  color: #0071ed;
+}
+
+.phone h2 {
+  margin: 19.5px 0 6.5px;
+}
+
+.multi .content-multi {
+  position: relative;
+}
+
+.multi .content-multi .image-multi {
+  position: relative;
+  z-index: 2;
+}
+
+.multi .content-multi .image-multi img {
+  width: 555px;
+}
+
+.multi .content-multi .multi-video {
+  width: 349px;
+  height: 198px;
+  display: block;
+  position: absolute;
+  top: 45px;
+  left: 97px;
+}
+
+.kids .image-kids img {
+  width: 504px;
+}
+
+.kids h2 {
+  margin: 19.5px 0 6.5px;
+}
+
+.QA {
+  color: #fff;
+  display: block;
+  justify-content: center;
+}
+
+.QA h1 {
+  text-align: center;
+}
+
+.QA .qa-list {
+  display: flex;
+  justify-content: center;
+}
+
+.QA .qa-list ul {
+  margin: 52px 486px;
+}
+
+.QA .qa-list ul li {
+  display: block;
+}
+
+.QA .qa-list ul li button {
+  width: 815px;
+  height: 77px;
+  background-color: #303030;
+  padding: 20px 57px 20px 31px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: left;
+  font-size: 1.625rem;
+  position: relative;
+}
+
+.QA .qa-list ul li button:hover {
+  cursor: pointer;
+}
+
+.QA .qa-list ul li button span {
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+}
+
+.QA .qa-list .text {
+  width: 815px;
+  padding: 31.2px;
+  box-sizing: border-box;
+  font-size: 26px;
+  background-color: #303030;
+  display: none;
+}
+
+.qa-list .text.open {
+  display: block;
+}
+
+/* FOOTER */
+
+footer .cm {
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 532px;
+}
+
+footer .inner {
+  margin: 0 394px;
+  padding: 70px 45px 20px;
+  width: 1000px;
+
+}
+
+footer h1 {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+footer .list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+footer .list .list-1 {
+  padding-right: 12px;
+}
+
+footer .list .list-1 ul li {
+  margin-bottom: 16px;
+}
+
+footer .select-lang {
+  margin: 20px 0 23px 0;
+}
+
+footer p {
+  line-height: 1.4;
+}
+
+footer p .fairtrade {
+  text-decoration: none;
+  color: #fff;
+}
