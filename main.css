@@ -1,0 +1,93 @@
+body {
+  color: #333;
+  font-size: 14px;
+  max-width: 1480px;
+  margin: 0 auto;
+  height: 1000px;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+img {
+  display: block;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+.description {
+  display: flex;
+}
+
+.description img {}
+
+.description table {
+  background-color: lightblue;
+}
+
+table tr {}
+
+table tr td {}
+
+section {
+  background-color: pink;
+  margin-top: 30px;
+}
+
+section h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section ul li {}
+
+section ul li a {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+section ul li:nth-child(1) a {
+  background-image: url('/naver.png');
+}
+
+section ul li:nth-child(2) a {
+  background-image: url('/오버워치.png');
+}
+
+section ul li:nth-child(3) a {
+  background-image: url('/하얏트.png');
+}
+
+section ul li:nth-child(4) a {
+  background-image: url('/넷플릭스.jpg');
+}
+
+section ul li:nth-child(5) a {
+  background-image: url('/naver.png');
+}
+
+section ul li:nth-child(6) a {
+  background-image: url('/스타벅스.jpeg');
+}
+
+section ul li:nth-child(7) a {
+  background-image: url('/지니뮤직.png');
+}
+
+section ul li a span {}
