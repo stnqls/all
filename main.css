@@ -3,7 +3,6 @@ body {
   font-size: 14px;
   max-width: 1480px;
   margin: 0 auto;
-  height: 1000px;
   padding: 30px;
   background-color: rgb(255, 248, 239);
 }
@@ -26,6 +25,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .description img {
@@ -37,6 +37,7 @@ img {
   font-size: 18px;
   width: 40%;
   height: 100%;
+  margin-left: 20px;
 }
 
 table tr {
@@ -61,7 +62,7 @@ section h2 {
   display: block;
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 section ul {
@@ -100,7 +101,7 @@ section ul li:nth-child(4) a {
 }
 
 section ul li:nth-child(5) a {
-  background-image: url('/naver.png');
+  background-image: url('샘플.jpg');
 }
 
 section ul li:nth-child(6) a {
@@ -127,4 +128,15 @@ section ul li:hover a span {
 
 section ul li:hover {
   transform: scale(1.2);
+}
+
+section ul li:last-child:hover {}
+
+section ul li .cover {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
 }
