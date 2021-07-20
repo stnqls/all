@@ -1,10 +1,11 @@
 body {
-  color: #333;
+  color: #444;
   font-size: 14px;
   max-width: 1480px;
   margin: 0 auto;
   height: 1000px;
-  padding: 20px;
+  padding: 30px;
+  background-color: rgb(255, 248, 239);
 }
 
 a {
@@ -18,31 +19,49 @@ img {
   width: 250px;
   height: 300px;
   object-fit: cover;
-
+  margin-right: 20px;
 }
 
 .description {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.description img {}
+.description img {
+  width: 13%;
+  height: 100%;
+}
 
 .description table {
-  background-color: lightblue;
+  font-size: 18px;
+  width: 40%;
+  height: 100%;
 }
 
-table tr {}
+table tr {
+  height: 30px;
+}
 
-table tr td {}
+table td {
+  padding: 5px;
+}
+
+table .title {
+  font-weight: 700;
+  font-size: 20px;
+  border-bottom: 1px solid #222;
+}
 
 section {
-  background-color: pink;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 section h2 {
-  font-size: 18px;
+  display: block;
+  font-size: 25px;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 
 section ul {
@@ -51,7 +70,9 @@ section ul {
   justify-content: space-between;
 }
 
-section ul li {}
+section ul li {
+  position: relative;
+}
 
 section ul li a {
   width: 150px;
@@ -90,4 +111,20 @@ section ul li:nth-child(7) a {
   background-image: url('/지니뮤직.png');
 }
 
-section ul li a span {}
+section ul li a span {
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  opacity: 0;
+  transition: all .7s;
+  transform: translateY(150px);
+}
+
+section ul li:hover a span {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+section ul li:hover {
+  transform: scale(1.2);
+}
