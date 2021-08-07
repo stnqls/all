@@ -1,3 +1,11 @@
+header {
+  width: 100%;
+}
+
+header .nav-mobile {
+  width: 100%;
+}
+
 header .search a img {
   width: 6.5rem;
 }
@@ -51,6 +59,10 @@ header .nav-mobile ul li a:hover {
 }
 
 /* 최신음악 */
+.new_music {
+  width: 100%;
+}
+
 .new_music .album ul {
   display: flex;
 }
@@ -68,6 +80,9 @@ header .nav-mobile ul li a:hover {
 }
 
 /* PROMOTION */
+.promotion {
+  width: 100%;
+}
 
 .promotion .right {
   display: none;
@@ -75,6 +90,7 @@ header .nav-mobile ul li a:hover {
 
 /* 실시간 차트 */
 .realchart {
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -262,6 +278,7 @@ header .nav-mobile ul li a:hover {
 
 /* 에디터 추천 */
 .editor {
+  width: 100%;
   height: auto;
   background-color: pink;
 }
@@ -278,7 +295,16 @@ header .nav-mobile ul li a:hover {
   margin-right: 0px;
 }
 
+/* 공지사항 */
+.notice {
+  width: 100%;
+}
+
 /* FOOTER */
+footer {
+  width: 100%;
+}
+
 footer .link ul li a {
   font-size: 10px;
 }
@@ -311,6 +337,11 @@ footer .link ul li::before {
   color: #969697;
   margin-left: 2px;
   font-size: 14px;
+}
+
+footer .info ul {
+  margin-bottom: 10px;
+  width: 800px;
 }
 
 footer .info ul li::after {
