@@ -120,7 +120,7 @@ header .nav-mobile ul li a:hover {
 .realchart ul li .state {
   width: 10px;
   height: 5px;
-  background-image: url('/images/list_180122.png');
+  background-image: url('./images/list_180122.png');
   background-repeat: no-repeat;
   background-position: -164px -111px;
   margin-right: 20px;
@@ -142,61 +142,61 @@ header .nav-mobile ul li a:hover {
 
 .realchart ul li:nth-child(1) .title::before {
   content: "";
-  background: url('/images/msg워너비.jpg') no-repeat;
+  background: url('./images/msg워너비.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(2) .title::before {
   content: "";
-  background: url('/images/신호등.jpg') no-repeat;
+  background: url('./images/신호등.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(3) .title::before {
   content: "";
-  background: url('/images/버터.jpg') no-repeat;
+  background: url('./images/버터.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(4) .title::before {
   content: "";
-  background: url('/images/weekend.jpg') no-repeat;
+  background: url('./images/weekend.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(5) .title::before {
   content: "";
-  background: url('/images/nextlevel.jpg') no-repeat;
+  background: url('./images/nextlevel.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(6) .title::before {
   content: "";
-  background: url('/images/버터2.jpg') no-repeat;
+  background: url('./images/버터2.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(7) .title::before {
   content: "";
-  background: url('/images/좋아좋아.jpg') no-repeat;
+  background: url('./images/좋아좋아.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(8) .title::before {
   content: "";
-  background: url('/images/치맛바람.jpg') no-repeat;
+  background: url('./images/치맛바람.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(9) .title::before {
   content: "";
-  background: url('/images/비와당신.jpg') no-repeat;
+  background: url('./images/비와당신.jpg') no-repeat;
   background-size: contain;
 }
 
 .realchart ul li:nth-child(10) .title::before {
   content: "";
-  background: url('/images/헤픈우연.jpg') no-repeat;
+  background: url('./images/헤픈우연.jpg') no-repeat;
   background-size: contain;
 }
 
