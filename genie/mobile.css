@@ -261,6 +261,10 @@ header .nav-mobile ul li a:hover {
 }
 
 /* 에디터 추천 */
+.editor {
+  height: auto;
+  background-color: pink;
+}
 
 .editor .square.hid {
   display: none;
@@ -268,8 +272,6 @@ header .nav-mobile ul li a:hover {
 
 .editor ul {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .editor ul li {
@@ -287,17 +289,28 @@ footer .link ul li.hid {
 
 footer .info .first {
   display: block;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 footer .info .second {
   display: block;
-  font-size: 12px;
+  font-size: 11px;
   flex-wrap: wrap;
 }
 
 footer .info ul li {
   line-height: 1.7;
+}
+
+footer .link ul li {
+  margin-left: 0px;
+}
+
+footer .link ul li::before {
+  content: "";
+  color: #969697;
+  margin-left: 2px;
+  font-size: 14px;
 }
 
 footer .info ul li::after {
