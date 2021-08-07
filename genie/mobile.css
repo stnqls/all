@@ -2,6 +2,7 @@ header {
   width: 100%;
 }
 
+
 header .nav-mobile {
   width: 100%;
 }
@@ -345,6 +346,6 @@ footer .info ul {
 }
 
 footer .info ul li::after {
-  content: '0';
+  content: '';
   margin-left: 0px;
 }
